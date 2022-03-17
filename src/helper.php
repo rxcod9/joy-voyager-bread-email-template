@@ -1,10 +1,10 @@
 <?php
 
-// if (! function_exists('joyVoyagerBreadReplaceKeyword')) {
+// if (! function_exists('joyVoyagerBreadEmailTemplate')) {
 //     /**
 //      * Helper
 //      */
-//     function joyVoyagerBreadReplaceKeyword($argument1 = null)
+//     function joyVoyagerBreadEmailTemplate($argument1 = null)
 //     {
 //         //
 //     }

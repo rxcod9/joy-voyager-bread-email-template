@@ -18,7 +18,7 @@ class DataTypesTableSeeder extends Seeder
                 'name'                  => 'email_templates',
                 'display_name_singular' => __('joy-voyager-bread-email-template::seeders.data_types.email_template.singular'),
                 'display_name_plural'   => __('joy-voyager-bread-email-template::seeders.data_types.email_template.plural'),
-                'icon'                  => 'voyager-bread',
+                'icon'                  => 'voyager-bread voyager-bread-email-template voyager-lab',
                 'model_name'            => 'Joy\\VoyagerBreadEmailTemplate\\Models\\EmailTemplate',
                 // 'policy_name'           => 'Joy\\VoyagerBreadEmailTemplate\\Policies\\EmailTemplatePolicy',
                 // 'controller'            => 'Joy\\VoyagerBreadEmailTemplate\\Http\\Controllers\\VoyagerBreadEmailTemplateController',

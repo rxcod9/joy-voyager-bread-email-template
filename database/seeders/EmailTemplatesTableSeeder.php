@@ -18,7 +18,7 @@ class EmailTemplatesTableSeeder extends Seeder
             return false;
         }
 
-        $count = 100;
+        $count = 20;
         EmailTemplate::factory()
             ->count($count)
             ->state(function (array $attributes) use ($count) {

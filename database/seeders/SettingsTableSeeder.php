@@ -12,7 +12,7 @@ class SettingsTableSeeder extends Seeder
      */
     public function run()
     {
-        $setting = $this->findSetting('email_template.key1');
+        $setting = $this->findSetting('emailtemplate.key1');
         if (!$setting->exists) {
             $setting->fill([
                 'display_name' => __('joy-voyager-bread-email-template::seeders.settings.email_template.key1'),
@@ -24,7 +24,7 @@ class SettingsTableSeeder extends Seeder
             ])->save();
         }
 
-        $setting = $this->findSetting('email_template.image');
+        $setting = $this->findSetting('emailtemplate.image');
         if (!$setting->exists) {
             $setting->fill([
                 'display_name' => __('joy-voyager-bread-email-template::seeders.settings.email_template.image'),
